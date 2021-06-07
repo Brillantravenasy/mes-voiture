@@ -32,7 +32,7 @@ const DetailCarComponent = (props) => {
                       )
                     }
                 {
-                   car && (
+                   currentUser && car && (
                         <div class = "col-sm-6">
                             <ListCommentComponent car={car}></ListCommentComponent>
                     </div>
