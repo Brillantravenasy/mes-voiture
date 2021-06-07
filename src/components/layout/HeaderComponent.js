@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { logout } from "../../actions/auth";
+import { Redirect } from 'react-router-dom';
+
 
 const HeaderComponent = () => {
         const [isLoginIn, setIsLoginIn] = useState(false);
@@ -16,6 +18,8 @@ const HeaderComponent = () => {
 
         const logOut = () => {
             dispatch(logout());
+            <Redirect to="/login" />;
+            
         };
         return (
             <div>

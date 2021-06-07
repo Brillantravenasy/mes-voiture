@@ -3,7 +3,7 @@ import authHeader from './authHeader';
 
 const COMMENT_API_BASE_URL = "http://localhost:4500/api/comment";
 
-class commentService {
+class commentServices {
 
 
     createComment(comment){
@@ -17,4 +17,4 @@ class commentService {
 
 }
 
-export default new commentService()
+export default new commentServices()

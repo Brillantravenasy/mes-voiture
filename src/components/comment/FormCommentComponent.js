@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import {  useSelector } from "react-redux";
-import commentService  from "../../services/commentService"
+import commentServices  from "../../services/commentServices"
 import { Redirect } from 'react-router-dom';
 
 
@@ -20,7 +20,7 @@ const FormCommentComponent = (props) => {
             carid: props.car._id
         }
         
-        commentService.createComment(data)
+        commentServices.createComment(data)
         .then(function(reponse){
             window.location.reload()
         
