@@ -1,0 +1,29 @@
+.navbar {
+    background-color: #e3f2fd;
+}
+
+.card {
+    width: 18rem;
+}
+
+.list-comment {
+    height: 50vh;
+    overflow: auto;
+}
+
+.btn-sendComment {
+    float:right
+}
+
+.image-home-page {
+    margin-top: 60px
+}
+
+.form-add-car .form {
+    margin: auto
+}
+
+.description {
+    height: 50px;
+    overflow: hidden;
+}
